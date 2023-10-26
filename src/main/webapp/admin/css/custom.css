@@ -1,0 +1,380 @@
+/*Products CSS*/
+body {
+	overflow-x: clip;
+}
+
+.ProBrand {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 15px;
+	color: #000;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.ProductName {
+	font-size: 13px;
+	line-height: 17px;
+	color: #000;
+	font-family: sans-serif;
+}
+
+.proPrice {
+	font-size: 14px;
+	line-height: 17px;
+	color: #000;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.proOgPrice {
+	font-size: 13px;
+	line-height: 17px;
+	font-family: sans-serif;
+	font-weight: 400;
+	text-decoration: line-through;
+	color: gray;
+}
+
+.proPriceDiscount {
+	font-size: 13px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: deeppink;
+}
+
+/*Product View CSS*/
+.ProNameView {
+	font-size: 20px;
+	line-height: 25px;
+	font-family: sans-serif;
+	color: #696e80;
+}
+
+.proOgPriceView {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 400;
+	text-decoration: line-through;
+	color: gray;
+}
+
+.proPriceDiscountView {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: deeppink;
+}
+
+.proPriceView {
+	font-size: 14px;
+	line-height: 17px;
+	font-family: sans-serif;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.divDet1 {
+	border-bottom: 1px dashed #ff6a00;
+	margin-bottom: 20px;
+}
+
+.h5Size {
+	font-weight: 600;
+}
+
+input[type=radio] {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.mainButton {
+	border-radius: 3px;
+	outline: 0;
+	margin-top: 10px;
+	min-height: 40px;
+	min-width: 108px;
+	font-size: 13px;
+	font-weight: 500;
+	background-color: #FF5722;
+	border: 1px solid #ff5722;
+	color: #fff;
+}
+/*Custom SignIn*/
+.SignIn {
+	background-color: #f8f9fa;
+	color: orange;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.Cart {
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.SignUp {
+	color: #007bff;
+	background-color: #f8f9fa;
+	transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.btn-seemore {
+	color: #000000;
+	transition: all 0.15s ease-in;
+}
+
+.btn-seemore:hover {
+	color: #ffffff;
+	background-color: #007bff;
+	transition-delay: .15s;
+}
+
+.Cart:hover {
+	background-color: #007bff;
+	border: 1px solid #007bff;
+	color: #f8f9fa;
+	transition-delay: .25s;
+}
+
+.SignUp:hover {
+	background-color: #007bff;
+	color: #f8f9fa;
+	transition-delay: .25s;
+}
+
+.SignIn:hover {
+	background-color: orange;
+	color: #f8f9fa;
+	transition-delay: .25s;
+}
+
+.priceGray {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 600;
+	color: dimgray;
+}
+
+.priceGreen {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #20bd99;
+}
+
+.proNameViewcart {
+	font-size: 15px;
+	line-height: 25px;
+	font-family: sans-serif;
+	font-weight: 600;
+	color: #696e80;
+}
+
+.buyNowbtn {
+	border-radius: 3px;
+	outline: 0;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	min-height: 22px;
+	min-width: 100%;
+	padding: 10px 15px;
+	font-size: 15px;
+	font-weight: 500;
+	background-color: #14cda8;
+	border: 1px solid #14cda8;
+	color: #fff;
+}
+
+.CartPdetails {
+	display: flex;
+	justify-content: space-between;
+}
+
+.customSettings {
+	height: fit-content;
+	margin-top: 3px;
+}
+
+.tf-custom .tf-nc {
+	border-color: dodgerblue;
+	border: 0.0625em solid #000;
+	display: inline-block;
+	padding: 0.5em 1em;
+	position: relative;
+	transition: all 0.5s ease-in;
+}
+
+.tf-custom .tf-nc:before, .tf-custom .tf-nc:after {
+	border-left-color: dodgerblue;
+	border-left-width: 2px;
+}
+
+.tf-nc:hover {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	color: #fff;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	transform: scale(1.05);
+	font-weight: lighter;
+	transition: all 0.5s ease-out;
+}
+
+@
+keyframes gradient { 0% {
+	background-position: 0% 50%;
+}
+
+50
+
+
+
+
+%
+{
+background-position
+
+
+
+
+:
+
+
+
+
+100
+
+
+%
+50
+
+
+%;
+}
+100
+
+
+
+
+%
+{
+background-position
+
+
+
+
+:
+
+
+
+
+0
+
+
+%
+50
+
+
+%;
+}
+}
+.tf-custom li li:before {
+	border-top-color: dodgerblue;
+	border-top-width: 2px;
+}
+
+.nav-scroller {
+	position: relative;
+	z-index: 2;
+	height: 9rem;
+	overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+	display: flex;
+	flex-wrap: nowrap;
+	padding-bottom: 1rem;
+	margin-top: -1px;
+	overflow-x: auto;
+	color: rgba(255, 255, 255, .75);
+	text-align: center;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+}
+
+.dropdown:hover>.dropdown-menu {
+	display: block;
+	transition: all 0.5s ease;
+}
+
+.dropdown img {
+	height: 100px;
+	width: 100px;
+	transition: all 1s ease;
+	border-bottom: 1px solid #fff;
+}
+
+.dropdown img:hover {
+	transition: all 1s ease;
+	border: 2px solid var(- -bs-primary-border-subtle);
+}
+
+.dropdown>.dropdown-toggle:active {
+	pointer-events: none;
+	transition: all 0.5s ease;
+}
+
+.dropdown-menu li {
+	font-size: 0.9rem;
+	position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -7px;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+	right: 100%;
+	left: auto;
+}
+
+.dropdown-menu>li:hover>.dropdown-submenu {
+	display: block;
+}
+
+.navCatList {
+	width: 100px;
+	height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+	.nav-scroller {
+		height: 5rem;
+	}
+	.dropdown img {
+		height: 50px;
+		width: 50px;
+	}
+	.dropdown-menu li {
+		font-size: 0.8rem;
+		position: relative;
+	}
+	.navCatList {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+.selectize-control {
+	padding: 0 !important;
+}
+
+.selectize-input {
+	border: none !important;
+}
+
+.selectize-dropdown .selected {
+	background-color: #0d6efd;
+	color: #fff;
+}
