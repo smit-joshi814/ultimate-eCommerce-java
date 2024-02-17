@@ -2,6 +2,10 @@
 
 Welcome to the "Ultimate eCommerce Java" repository! This repository hosts a comprehensive eCommerce platform developed as a Bachelor's project. Built using Java 17, JSP, Servlets, Bootstrap, jQuery, and MySQL, this project stands as a unique demonstration of core functionalities in eCommerce web development. It features an array of functionalities including variations, recursive table for category storage, user profile management, streamlined checkout process, and a responsive UI. Moreover, it's designed to be easily installable as a web app for local deployment.
 
+## LIVE DEMO
+[Live Demo](https://eshop-cl3h.onrender.com)
+- due to free plan, service may be down sometimes
+
 ## Project Overview
 The "Ultimate eCommerce Java" project offers a rich set of features aimed at providing users with a seamless shopping experience. Here's a brief overview of its key components:
 
